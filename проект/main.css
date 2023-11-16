@@ -1,0 +1,44 @@
+#body {
+    font-family:Verdana;
+    font-size: 13px;
+    background: #f3f3f3;
+}
+a {
+    color: #cb2c2c;
+    text-decoration: none;
+}
+h4 ~ li{
+    color: red;
+}
+:link {
+    border-bottom: 1px dashed #444;
+}
+:hover {
+        border: 1px solid black;
+    }
+li:nth-child(even ) {
+    color: green;
+}
+li:nth-child(odd ) {
+    color: red;
+}
+h2::before{
+   content: "кстати";
+    font-size: 10px;
+}
+
+a[href$=".jpg"]::after {
+    content: '(jpg)';
+    font-size: 10px;
+    color: #888;
+}
+a[href$=".png"]::after{
+    content: '(png)';
+    font-size: 10px;
+    color: #888;
+}
+a[href$=".mp3"]::after{
+    content: '(mp3)';
+    font-size: 10px;
+    color: #888;
+}

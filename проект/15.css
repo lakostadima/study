@@ -1,0 +1,22 @@
+body {
+    background: url("https://catherineasquithgallery.com/uploads/posts/2021-02/1613353734_137-p-bezhevii-stol-fon-193.png");
+    font: 1em Tahoma,Arial;
+    text-transform: uppercase;
+    /********** main menu**********/
+    .nav{
+        list-style: none;
+        padding: 0;
+        margin: 30px;
+    }
+}
+.nav li a {
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    background: #bbb;
+    margin: 1px;
+    color: #fff;
+    padding-left: 15px;
+    cursor: pointer;
+}
