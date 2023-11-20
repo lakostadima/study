@@ -12,7 +12,7 @@ body{
     height: 300px;
     transform-origin: 50% 50% -150px;
     transform-style: preserve-3d;
-    transform: rotate3d(1,1,1,50deg);
+
 }
 .side {
     width: 300px;
@@ -43,5 +43,5 @@ body{
     transform: rotatex(-90deg);
 }
 #side6{
-    transform: rotatey(1800deg);
+    transform: rotatey(180deg);
 }

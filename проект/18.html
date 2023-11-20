@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="18.css">
@@ -7,7 +7,7 @@
 </head>
 <body>
     <div id="wrapper">
-        <div id="cube>">
+        <div id="cube">
         <div class="side" id="side1">1</div>
             <div class="side" id="side2">2</div>
             <div class="side" id="side3">3</div>
@@ -16,5 +16,15 @@
             <div class="side" id="side6">6</div>
         </div>
     </div>
+<script src="http://cdnjs.cloidflare.com/ajax/libs.jquery/1.7.2/jquery.min.js"></script>
+<script>
+    $(function(){
+        $(document).mousemove(function(e){
+            $('#cube').css({
+                'transform':'rotateX('+e.pageY+'deg) rotateY('+e.pageX+'deg)'
+            });
+        });
+    });
+</script>
 </body>
 </html>
