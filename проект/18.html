@@ -16,15 +16,19 @@
             <div class="side" id="side6">6</div>
         </div>
     </div>
-<script src="http://cdnjs.cloidflare.com/ajax/libs.jquery/1.7.2/jquery.min.js"></script>
-<script>
-    $(function(){
-        $(document).mousemove(function(e){
-            $('#cube').css({
-                'transform':'rotateX('+e.pageY+'deg) rotateY('+e.pageX+'deg)'
-            });
-        });
-    });
-</script>
+    <!-- <script src="http://cdnjs.cloidflare.com/ajax/libs.jquery/1.7.2/jquery.min.js"></script>-->
+    <script>
+//      $(function(){
+//          $(document).mousemove(function(e){
+//          $('#cube').css({
+//              'transform':'rotateX('+e.pageY+'deg) rotateY('+e.pageX+'deg)'
+//             });
+//         });
+//     });
+        document.addEventListener("mousemove", (e)=>{
+            document.querySelector('#cube')
+                .style.transform = 'rotateX(${e.pageY}deg) rotateY(${e.pageX}deg)'
+        })
+    </script>
 </body>
 </html>
