@@ -1,0 +1,28 @@
+body {
+    background: url("https://thumbs.dreamstime.com/b/hexagons-abstract-grid-background-grey-hex-pattern-subtle-polygons-linear-geometric-texture-hexagonal-vector-illustration-184143063.jpg");
+    font: 1em "PT Sans" ,Tahoma, Arial;
+}
+#wrapper {
+    perspective: 500px;
+    width: 400px;
+    height: 200px;
+}
+
+#myframe{
+    width: 450px;
+
+}
+#container {
+    background: rgba(0,0,0,.3);
+    width: 450px;
+    height: 350px;
+    margin: 80px;
+    line-height: 150px;
+    text-align: center;
+    font-size: 1.2em;
+    color: #fff;
+    border: 3px solid #fff;
+    border-radius: 8px;
+
+    transform: rotate3d(-1,1,-1,40deg);
+}
