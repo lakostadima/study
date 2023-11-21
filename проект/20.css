@@ -1,0 +1,65 @@
+body{
+    background: url("https://s3.hostingkartinok.com/uploads/images/2012/09/805ffaaf263409f9ab76e9cb05a35b03.png");
+    font: 1em arial, helvetica, sans-serif;
+}
+@font-face {
+    font-family: ptsans ;
+    src: url("pt_sans-web-bold.ttf");
+    font-weight: normal;
+}
+@font-face {
+    font-family: ptsans;
+    src: url("pt_sans-web-italic.ttf");
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'SignifyLite';
+    src: url('signifylite-webfont.eot');
+    src: url('signifylite-webfont.eot?#iefix') format('embedded-opentype'),
+    url('signifylite-webfont.woff') format('woff'),
+    url('signifylite-webfont.ttf') format('truetype'),
+    url('signifylite-webfont.svg#SignifyLite') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+section{
+    margin: 10px 40px;
+    padding: 30px;
+
+}
+section span{
+    font-weight: bold;
+}
+.btn, .label{
+    text-shadow: 0 1px 0 white;
+}
+.label{
+    font-family: ptsans,Arial;
+    font-size: 2.4em;
+    text-shadow: 0 1px 0 white;
+}
+.block{
+    background: url("https://s3.hostingkartinok.com/uploads/images/2012/09/805ffaaf263409f9ab76e9cb05a35b03.png");
+    border-radius: 5px;
+    box-shadow: 0 3px 20px rgba(0,0,0,.2);
+    border-top: 1px solid rgba(255,255,255,.7);
+}
+.btn{
+    width: 60px;
+    height: 60px;
+    font:2em signifylite;
+    display: inline-block;
+    margin: 5px;
+    text-align: center;
+    line-height: 49px;
+    color: #333;
+    border-radius: 3px;
+    transition: all .5s;}
+
+    .btn:hover{
+        color: #eee;
+        background: #333;
+        cursor: pointer;
+        text-shadow: none;
+        transform: scale(1.2);
+    }

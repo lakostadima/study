@@ -20,14 +20,14 @@
     <script>
 //      $(function(){
 //          $(document).mousemove(function(e){
-//          $('#cube').css({
-//              'transform':'rotateX('+e.pageY+'deg) rotateY('+e.pageX+'deg)'
+//          $(`#cube`).css({
+//              `transform`:`rotateX(`+e.pageY+`deg) rotateY(`+e.pageX+`deg)`
 //             });
 //         });
 //     });
         document.addEventListener("mousemove", (e)=>{
-            document.querySelector('#cube')
-                .style.transform = 'rotateX(${e.pageY}deg) rotateY(${e.pageX}deg)'
+            document.querySelector(`#cube`)
+                .style.transform = `rotateX(${e.pageY}deg) rotateY(${e.pageX}deg)`
         })
     </script>
 </body>
