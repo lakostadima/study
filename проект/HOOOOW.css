@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: url(https://subtlepatterns.com/patterns/retina_wood.png);
+    background-image: url(https://jooinn.com/images/wood-texture-140.jpg);
 }
 
 /* Basic Slider Styles */
@@ -39,12 +39,12 @@ body {
     perspective: 500px;
 }
 
-.img1 .frag { background-image: url(https://dl.dropbox.com/u/23548340/spic0.jpg) }
-.img2 .frag { background-image: url(https://dl.dropbox.com/u/23548340/spic1.jpg) }
-.img3 .frag { background-image: url(https://dl.dropbox.com/u/23548340/spic2.jpg) }
-.img4 .frag { background-image: url(https://dl.dropbox.com/u/23548340/spic3.jpg) }
-.img5 .frag { background-image: url(https://dl.dropbox.com/u/23548340/spic4.jpg) }
-.img6 .frag { background-image: url(https://dl.dropbox.com/u/23548340/spic5.jpg) }
+.img1 .frag { background-image: url(2023-porsche-911-gt3-touring-design-werks-10k-ms-640x960.jpg) }
+.img2 .frag { background-image: url(ford-mustang-wide-body-front-view-ws-640x960.jpg) }
+.img3 .frag { background-image: url(lamborghini-huracan-evo-minotauro-nh-640x960.jpg) }
+.img4 .frag { background-image: url(lamborghini-huracan-wrap-so-640x960.jpg) }
+.img5 .frag { background-image: url(porsche-911-carrera-gts-sally-special-8k-u0-640x960.jpg) }
+.img6 .frag { background-image: url(porsche-911-track-racing-wide-640x960.jpg) }
 
 .frag {
     width: 150px;
